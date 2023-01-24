@@ -32,7 +32,7 @@ if __name__ == "__main__":
         xBinaryStr = format(i, "08b")
         x = binaryToFractional(xBinaryStr)
         y = func(x)
-        yBinaryStr = fractionalTobinary(y)
+        yBinaryStr = fractionalTobinary(y, numberOfBits)
         dataFile.write(yBinaryStr + "\n")
 
     dataFile.close()    
