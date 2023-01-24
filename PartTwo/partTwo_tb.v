@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   01:18:27 01/25/2023
-// Design Name:   partTwo
-// Module Name:   C:/Users/fereshteh/FPGA/project/partTwo_tb.v
-// Project Name:  project
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: partTwo
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 module partTwo_tb;
 
 	// Inputs
