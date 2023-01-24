@@ -9,7 +9,7 @@ def binaryToFractional(binaryStr):
     return int(binaryStr, 2) / 2 ** len(binaryStr)
 
 
-def floatingPartTobinary(number, size):
+def fractionalTobinary(number, size):
     fractionalPart = number - int(number)
     result = ""
     
