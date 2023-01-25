@@ -18,4 +18,4 @@ LUT-based methods can be made more memory-efficient and more accurate using quar
 ![Alt text](/PartThree/Formula.png)
 
 ## Compare accuracy:
-Part One > part Three > part Two
+Part One **>** part Three **>** part Two
