@@ -14,7 +14,7 @@ LUT-based methods can be made more memory-efficient, if they are combined with l
 ![Alt text](/PartTwo/Formula.png)
 
 ## Part Three
-LUT-based methods can be made more memory-efficient and more accurate using quartic interpolation:
+LUT-based methods can be made more memory-efficient and more accurate using quadratic interpolation:
 ![Alt text](/PartThree/Formula.png)
 
 ## Compare accuracy:
