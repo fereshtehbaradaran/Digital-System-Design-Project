@@ -1,6 +1,5 @@
 # Digital-System-Design-Project
 
-## OVERVIEW
 For smooth functions, LUT-based methods can be made more memory-efficient, if they are combined with interpolation. The project purpose was to implement
 interpolation using the quadratic method.
 
