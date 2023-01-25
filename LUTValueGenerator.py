@@ -31,8 +31,7 @@ if __name__ == "__main__":
     for i in range(LUTSize):
         xBinaryStr = format(i, "08b")
         x = binaryToFractional(xBinaryStr)
-        y = func(x)
-        yBinaryStr = fractionalTobinary(y, numberOfBits)
+        yBinaryStr = fractionalTobinary(func(x), numberOfBits)
         dataFile.write(yBinaryStr + "\n")
 
     dataFile.close()    
