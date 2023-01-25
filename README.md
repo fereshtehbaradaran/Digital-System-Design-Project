@@ -3,7 +3,7 @@
 For smooth functions, LUT-based methods can be made more memory-efficient, if they are combined with interpolation. The project purpose was to implement
 interpolation using the quadratic method.
 
-function worked on: **y = x^2 - x^3** </br> 0 < x < 1 (8-bit input and output)
+function worked on: **y = x <sup>2</sup> - x <sup>3</sup>** ,0 < x < 1 (8-bit input and output)
 
 ## Part One
 In order to implement y = f(x) over a finite domain, we can pre-calculate and store the values of y over the entire domain of x in a memory. The values of x can next be used as the address bus of the memory during runtime. 256 values of f(x) calculated (using python) and stored in LUT.
