@@ -36,9 +36,9 @@ module partThree(
 	 
 	 
 	 always @ (*) begin
-		x1 <= (x[7:2] - 6'b000001);
+		x1 <= (x[7:2] - 1);
 		x2 <= (x[7:2]);
-		x3 <= (x[7:2] + 6'b000001);
+		x3 <= (x[7:2] + 1);
 		xLSB <= x[1:0];
 		xLSB2 <= xLSB * xLSB;
 		
@@ -46,6 +46,7 @@ module partThree(
 		y1 <= LUTPart3[x1];
 		y2 <= LUTPart3[x2];
 		y3 <= LUTPart3[x3];
+		 
 		y3_y1_diff <= (y3 - y1);
 		yDiff <= (y1 - (y2 << 1) + y3);
 		
