@@ -5,16 +5,8 @@ module partTwo(
     output reg [7:0] y
     );
 	 
-	 reg [7:0] LUT [255:0];
-	 initial $readmemb("LUTValues.mem");
-	 
-	 
-	 reg [7:0] LUTPart2 [63:0];
-	 integer i = 0;
-	 initial begin
-		for(i = 0; i < 64; i = i + 1)
-			LUTPart2[i] <= LUT[4 * i];
-	 end
+	 reg [7:0] LUT [63:0];
+	 initial $readmemb("LUTValues.mem", LUT, 0 , 63);
 	 
 	 
 	 reg [5:0] x1; //6 bit

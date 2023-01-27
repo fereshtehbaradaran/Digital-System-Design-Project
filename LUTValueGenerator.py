@@ -1,6 +1,6 @@
 fileName = "LUTValues.txt"
-numberOfBits = 8  # 256 = 2 ^ 8
-LUTSize = 2 ** numberOfBits
+numberOfBits = 8  
+LUTSize = 2 ** numberOfBits  # 256 = 2 ^ 8
 
 func = lambda x: x**2 - x**3
 

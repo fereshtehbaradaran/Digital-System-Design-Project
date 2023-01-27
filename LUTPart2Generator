@@ -1,0 +1,16 @@
+fileName = "LUTValues.txt"
+size = 2 **8
+generatedFileName = "NewLUTValues.txt"
+newSize = 2 ** 6
+
+
+if __name__ == "__main__":
+    newLUT = open(generatedFileName, "w")
+
+    with open(fileName) as mainLut:
+        for i in range(size):
+            temp = mainLut.readline()
+            if i % 4 == 0:
+                newLUT.write(temp)
+
+    newLUT.close()
